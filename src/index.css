@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+a {
+  padding: 10px;
+  background-color:antiquewhite;
+  height: 22px;
+  width:151px;
+  display: inline-block;
+  margin-bottom: 20px;
+}

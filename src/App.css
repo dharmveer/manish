@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  font-family: 'Oleo Script', cursive;
+  background-color: antiquewhite;
+}
+.login{
+  width: 275px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  border: 1px solid #f4f4f4;
+  background: rgba(255,255,255,.5);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 2px #aaa;
+  -moz-box-shadow: 0 0 2px #aaa;
+  box-shadow: 0 0 2px #aaa;
+}
+input[type="text"], .login input[type="password"] {
+  border: 1px solid rgba(51,51,51,.5);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: 'Oleo Script', cursive;
+  text-align: center;
+}
+
+.login button {
+  font-family: 'Oleo Script', cursive;
+  font-size: 18px;
+  border: 1px solid #000;
+  padding: 5px 10px;
+  border: 1px solid rgba(51,51,51,.5);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 1px 1px #aaa;
+  -moz-box-shadow: 2px 1px 1px #aaa;
+  box-shadow: 2px 1px 1px #aaa;
+  cursor: pointer;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
